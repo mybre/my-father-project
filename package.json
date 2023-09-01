@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "father dev",
     "build": "father build",
+    
     "build:deps": "father prebundle",
     "prepublishOnly": "father doctor && npm run build"
   },
